@@ -5,6 +5,8 @@ This is my selfmade Slack bot. He has really basic functions.
 - `/elias-catfact` - Get a cat fact
 - `/elias-joke` - Get a nice joke
 - `/elias-duck` - Get a random duck image
+- `/elias-advice` - Get a life advice
+- `/elias-qr <text>` - Get a QR Code
 
 ## How to install:
 1. Download the Github repo.
