@@ -63,7 +63,7 @@ app.command("/elias-duck", async ({ ack, respond }) => {
     const response = await axios.get("https://random-d.uk/api/random");
 
     await respond({
-      text: `🦆 Random Duck:\n${response.data.url}`
+      text: `Random Duck:\n${response.data.url}`
     });
 
   } catch (err) {
@@ -77,7 +77,7 @@ app.command("/elias-advice", async ({ ack, respond }) => {
   await ack();
   try {
     const response = await axios.get("https://api.adviceslip.com/advice");
-    await respond({ text: `💡 Advice #${response.data.slip.id}:\n${response.data.slip.advice}` });
+    await respond({ text: `Advice #${response.data.slip.id}:\n${response.data.slip.advice}` });
   } catch (err) {
     await respond({ text: "Failed to fetch advice." });
   }
