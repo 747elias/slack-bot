@@ -16,4 +16,4 @@ This is my selfmade Slack bot. He has really basic functions.
 5. Enjoy!
 
 ## Demo
-🎬 [Watch the demo video](https://vimeo.com/1199169059)
+🎬 [Watch the demo video](https://vimeo.com/1199169059) or https://hackclub.enterprise.slack.com/archives/C0B944F7950
